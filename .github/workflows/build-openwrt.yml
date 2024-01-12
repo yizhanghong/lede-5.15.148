@@ -35,8 +35,8 @@ jobs:
     runs-on: ubuntu-20.04
   
     steps:
-    - name: Checkout
-      uses: actions/checkout@main
+    - name: Delete workflow runs
+      uses: Mattraks/delete-workflow-runs@main
        
     - name: Free Disk Space (Ubuntu)
       uses: jlumbroso/free-disk-space@main
